@@ -32,6 +32,16 @@ h1 {
     padding: 10px;
     display: none;
 }
+.experiencia_texto{
+    color: white;
+    padding: 10px;
+    display: none;
+}
+.educacion_texto{
+    color: white;
+    padding: 10px;
+    display: none;
+}
 .Perfil{
     background-color: #61C5B8;
     width: 100%;
@@ -70,10 +80,24 @@ h1 {
 section .Perfil:hover{
     .perfil_texto{
         display: block;
+        height: 100vh;
     }
 }
 section .Data:hover{
     .data_texto{
         display: block;
+    }
+}
+section .Experiencia:hover{
+    .experiencia_texto{
+        display: flex;
+    }
+}
+div span{
+    color: white;
+}
+section .Educación:hover{
+    .educacion_texto{
+        display: flex;
     }
 }
