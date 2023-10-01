@@ -47,12 +47,12 @@ h1::before{
 }
 section{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     height: 80vh;
     background-color: transparent;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
 }
 a{
     position: relative;
@@ -121,6 +121,7 @@ a:hover i::after{
 @media (min-width: 672px) {
     section{
         flex-direction: row;
+        justify-content: center;
         gap: 100px;
         height: 80vh;
     }

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    background-color: black;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+    height: 80vh;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0 30px;
+    color: aqua;
+    height: 20vh;
+}
+.perfil_texto{
+    color: white;
+    padding: 10px;
+    display: none;
+}
+.data_texto{
+    color: white;
+    padding: 10px;
+    display: none;
+}
+.Perfil{
+    background-color: #61C5B8;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    height: 20vh;
+}
+.Data{
+    background-color: #FFE08F;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    height: 20vh;
+}
+.Experiencia{
+    background-color: #F2725D;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    height: 20vh;
+}
+.Educación{
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    height: 20vh;
+}
+.Plus{
+    background-color: #87D6F7;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    height: 20vh;
+}
+section .Perfil:hover{
+    .perfil_texto{
+        display: block;
+    }
+}
+section .Data:hover{
+    .data_texto{
+        display: block;
+    }
+}
