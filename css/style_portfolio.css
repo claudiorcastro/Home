@@ -23,6 +23,9 @@ header nav ul li a{
     font-size: 2em;
     font-weight: 600;
 }
+header nav ul li a:hover {
+    color:lightblue;
+}
 main .section_1{
     height: 100vh;
     width: 100%;
@@ -53,14 +56,23 @@ main .section_1 h2{
     left: 19em;
 }
 main .section_2{
-    background-color: RED;
+    background-color: lightblue;
     position: relative;
 }
 main .section_2 h2{
     font-size: 3em;
-    position: absolute;
-    top: 3em;
+    position: relative;
+    top: 1em;
     left: 14em;
+    color: black;
+    padding-top: 1em;
+    width: 10em;
+}
+main .section_2 p{
+    font-size: 2em;
+    position: relative;
+    top: 2em;
+    text-align: center;
 }
 main .section_3{
     background-color: lightblue;
@@ -69,7 +81,19 @@ main .section_3{
 
 main .section_3 h2{
     font-size: 3em;
-    position: absolute;
-    top: 33em;
+    position: relative;
+    top: 3em;
     left: 14em;
+    width: 10em;
+    color: black;
+}
+main .section_3 p{
+    font-size: 2em;
+    position: relative;
+    top: 10em;
+    background-color: lightblue;
+}
+main footer{
+    height: 50em;
+    background-color: black;
 }
