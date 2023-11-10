@@ -4,7 +4,11 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-     font-family: sans-serif;
+    font-family: sans-serif;
+}
+#Container{
+    width: 100%;
+    font-size: 1vw;
 }
 body{
     background-color: black;
