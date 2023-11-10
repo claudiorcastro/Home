@@ -48,11 +48,11 @@ main .section_1 h1,h2{
     top: 10em;
 }
 main .section_1 h1{
-    top: 8em;
+    top: 10em;
     left: 17em;
 }
 main .section_1 h2{
-    top: 10em;
+    top: 12em;
     left: 19em;
 }
 main .section_2{
@@ -96,4 +96,26 @@ main .section_3 p{
 main footer{
     height: 50em;
     background-color: black;
+}
+@media ( max-width: 911px ) {
+    header{
+        position: absolute;
+        top: 12em;
+        left: 26em;
+    }
+    header nav ul li a{
+        color: white;
+        font-size: 8em;
+        font-weight: 800;
+    }
+    main .section_1 h1{
+        top: 11em;
+        left: 2em;
+        font-size: 6em;
+    }
+    main .section_1 h2{
+        top: 9.5em;
+        left: 5em;
+        font-size: 6em;
+    }
 }
